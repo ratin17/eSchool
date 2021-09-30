@@ -9,7 +9,7 @@
                 <!-- cart item -->
                 <div class="row border-top py-3 mt-3">
                     <div class="col-sm-2">
-                        <img src="./images/dsa2.jpg" style="height: 120px;" alt="cart1" class="img-fluid">
+                        <img src="./images/dsa2.jpg" style="height: 100px;" alt="cart1" class="img-fluid">
                     </div>
                     <div class="col-sm-8">
                         <h5 class="font-roboto font-size-20">DSA Course</h5>
@@ -45,7 +45,7 @@
                 <!-- cart item -->
                 <div class="row border-top py-3 mt-3">
                     <div class="col-sm-2">
-                        <img src="./images/web4.jpg" style="height: 120px;" alt="cart1" class="img-fluid">
+                        <img src="./images/web4.jpg" style="height: 100px;" alt="cart1" class="img-fluid">
                     </div>
                     <div class="col-sm-8">
                         <h5 class="font-roboto font-size-20">Web Course</h5>
@@ -81,8 +81,10 @@
                     <h6 class="font-size-12 font-rale text-success py-3"><i class="fas fa-check"></i> Your
                         courses are available</h6>
                     <div class="border-top py-4">
-                        <h5 class="font-roboto font-size-20">Subtotal (2 courses):&nbsp; <span class="text-danger">$<span class="text-danger" id="deal-price">152.00</span>
-                            </span> </h5>
+                        <h5 class="font-roboto font-size-20">Subtotal (2 courses):&nbsp;
+                            <span class="text-danger">$<span class="text-danger" id="deal-price">152.00</span>
+                            </span>
+                        </h5>
                         <button type="submit" class="btn btn-warning mt-3">Proceed to Pay</button>
                     </div>
                 </div>

@@ -24,6 +24,12 @@
 
     <!-- My Custom css -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+
+    <?php
+    // require functions.php file
+    require('functions.php');
+    ?>
 
 </head>
 
@@ -33,7 +39,7 @@
 
     <header id="header">
 
-        <div class="shadow-lg bg-body rounded my-5">
+        <div class="shadow-lg bg-body rounded mb-5">
             <nav class="navbar navbar-expand-lg navbar-light m-3 h4">
 
 
@@ -59,10 +65,10 @@
 
 
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                    <ul class="navbar-nav mb-2 mb-lg-0 m-auto font-roboto">
+                    <ul class="navbar-nav mb-2 mb-lg-0 m-auto font-roboto font-size-16 ">
 
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
 
                         <li class="nav-item">
@@ -92,7 +98,14 @@
 
 
 
-                <div class="m-auto">
+                <div class="collapse navbar-collapse">
+                    <a class="nav-link text-size-20" aria-current="page" href="#">Wishlist(<span id="wlist" class="color-success">0</span>)</a>
+                </div>
+
+
+
+
+                <div class="m-auto collapse navbar-collapse">
                     <form action="#" class="font-size-14 font-rale">
                         <a href="#" class="py-2 rounded-pill color-primary-bg">
                             <span class="font-size-16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>

@@ -3,7 +3,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                        <img src="./images/web2.png" alt="course-details" class="img-fluid">
+                        <img src="./images/web2.png" alt="course-details" class="img-fluid course-img">
                         <div class="form-row pt-4 font-size-16 font-rale">
                             <div class="col">
                                 <button type="submit" class="btn btn-danger form-control">Confirm Enrol</button>
